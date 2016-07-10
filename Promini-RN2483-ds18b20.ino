@@ -4,9 +4,12 @@
  * Author: Anucha Promwungkwa, Ph.D.
  * Date:   2016-07-10
  * 
- * This code is orginal by JP Meijers, 2016-02-07
- * 
  * TTN sensor using DS18B20. Arduino ProMini + RN2483.
+ * 
+ * This code is orginaled by JP Meijers, 2016-02-07
+ * https://github.com/jpmeijers/ttnmapperarduino
+ * 
+ * The code is under the Apache v2.0 license: http://www.apache.org/licenses/LICENSE-2.0
  * 
  * CHANGE ADDRESS!
  * Change the address this device should use to either a testing address or one from a range you "own".
@@ -36,8 +39,6 @@
 #include <SoftwareSerial.h>
 #include "OneWire.h"
 #include "DallasTemperature.h"
-
-//SoftwareSerial mySerial(10, 11); // RX, TX
 
 SoftwareSerial mySerial(A3, A2); // RX, TX
 
