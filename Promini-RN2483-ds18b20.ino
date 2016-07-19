@@ -91,7 +91,7 @@ void setup() {
   Serial.println(myLora.sysver());
   
   //OTAA: init(String AppEUI, String AppKey);
-  myLora.init("70B3D57ED0000139", "8AAFA2276A6C7BBA717EBD2A2894118F");
+  myLora.init("70B3D57ED0000FFF", "8AAFA2276A6C7BBA717EBD2A28941FFF");
   
   //transmit a startup message
   myLora.txUncnf("Fast TXer (TTN)");
